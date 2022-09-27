@@ -31,7 +31,7 @@ const Register = () => {
             {/* <pre>{JSON.stringify(state)}</pre> */}
             <Container className='mt-3'>
                 <Row>
-                    <Col md={2}>
+                    <Col md={6}>
                         <Card className='shadow-lg'>
                             <Card.Header className='p-3' style={{backgroundColor:'#ffc107'}} >
                                 <h4>Register</h4>

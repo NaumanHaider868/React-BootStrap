@@ -27,7 +27,7 @@ let Counter = () => {
                 <Card.Body>
                     <p className='display-5'>{one.count}</p>
                     <Button variant='success' className='m-1' onClick={incr} >Increment</Button>
-                    <Button variant='warning' onClick={denc} >Increment</Button>
+                    <Button variant='warning' onClick={denc} >Decrement</Button>
                 </Card.Body>
             </Card>
             </Col>
