@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #233183;
+    text-align: center;
+    justify-content: center;
+    height: 80px;
+}
+.MicImg {
+    display: flex;
+    margin-right: 111px;
+}
+.navbar-brand .Micp{
+    padding-left: 15px;
+    padding-top: 8px;
+    color: #fff;
+}
+.bag{
+    color: #fff;
+    padding-left: 25px;
+    text-align: center;
+    padding-top: 19px;
+    display:-webkit-inline-box;
+}
+
+.bag p{
+padding-left: 5px;
+font-size: 21px;
+padding-top: 3px;}
+
+.bag:hover{
+    color:#fff
+}
+
+._bold{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+._bold:hover{
+    color: #fff;
+}
+
+.img-box{
+    border: 1px solid #fff;
+    width: 46px;
+    height: 46px;
+    border-radius: 28px;
+    background: #1935d377;
+
+}
+.imgx{
+    height: 22px;
+    width: 24px;
+    position: absolute;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    margin-left: -12px;
+    /* margin-right: 25px; */
+}
+
+/* SideBar */
+li{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.MuiButtonBase-root:hover svg{
+    color: #1935d377;
+    transition: 0.1s;
+}
+.MuiButtonBase-root:hover{
+    color: #1935d377;
+    transition: 0.1s;
+}

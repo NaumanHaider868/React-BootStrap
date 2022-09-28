@@ -1,9 +1,11 @@
 import './App.css';
-import {Navbar,Container} from 'react-bootstrap';
+// import {Navbar,Container} from 'react-bootstrap';
 import Counter from './componets/Counter';
 import Register from './componets/Register';
 import UserList from './componets/UserList';
 import Login from './componets/Login';
+import _Navbar from './componets/_Navbar';
+import _Sidebar from './componets/_Sidebar';
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
         {/* <Counter/> */}
         {/* <Register/> */}
         {/* <UserList/> */}
-        <Login/>
+        {/* <Login/> */}
+        <_Navbar/>
+        <_Sidebar/>
     </div>
   );
 }
